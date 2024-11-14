@@ -1,3 +1,7 @@
+
+import java.util.Calendar;
+import java.util.Date;
+
 public class funciones {
     public static int sumaMedianteModuloYDivision(int numero){
         int digito1 = (numero/10)/10;
@@ -50,5 +54,24 @@ public class funciones {
             nuevaCadena += " ";
         }
         return nuevaCadena;
+    }
+    public static String devolverFechaString(Date fecha){
+        String fechaString = fecha.toString();
+        return fechaString;
+    }
+    public static Date crearFechaDate(int dia, int mes, int anio){
+        Calendar calendar = Calendar.getInstance();
+        calendar.set(Calendar.DAY_OF_MONTH, dia);
+        calendar.set(Calendar.MONTH, (mes - 1));
+        calendar.set(Calendar.YEAR, anio);
+        Date fechaDate = calendar.getTime();
+        return fechaDate;
+    }
+    public static int sumaDeDigitosRecursiva(int numero){
+        if (numero == 0) {
+            return 0;
+        } else {
+            return numero % 10 + sumaDeDigitosRecursiva(numero / 10);
+        }
     }
 }
