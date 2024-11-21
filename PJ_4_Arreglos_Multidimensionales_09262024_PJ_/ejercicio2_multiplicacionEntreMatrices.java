@@ -3,7 +3,7 @@
 //Crea el array 2 [y][x] de tipo entero y lo llena el usuario
 //Crea el array 3 [x][y] de tipo entero y es rellenado por la multiplicación de las filas del primer array por las columnas del array 2
 import java.util.Scanner; 
-public class ejercicio2{
+public class ejercicio2_multiplicacionEntreMatrices{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Porfavor ingrese un número entero");

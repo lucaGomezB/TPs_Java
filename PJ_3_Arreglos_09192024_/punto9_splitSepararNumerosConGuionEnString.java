@@ -1,7 +1,7 @@
 //El siguiente programa permite al usuario ingresar una cadena de números separados por guiones
 //Con split, se convierte la cadena en un arreglo, calcula la suma total de los elementos y el promedio dado.
 import java.util.Scanner;
-public class punto9{
+public class punto9_splitSepararNumerosConGuionEnString{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int contador = 0;

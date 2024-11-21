@@ -4,7 +4,7 @@
 //Se suman las columnas de la matriz, renglón por renglón, llenando un arreglo columna por columna
 //Se suman los resultados de las columnas para dar un número que se muestra en pantalla.
 import java.util.Scanner;
-public class ejercicio3{
+public class ejercicio3_sumatoriaDeMatriz{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         boolean condicion = true;

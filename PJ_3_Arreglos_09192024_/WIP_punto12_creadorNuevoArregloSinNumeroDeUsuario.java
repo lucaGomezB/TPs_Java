@@ -5,7 +5,7 @@
 //El programa cumple con la consigna, sin embargo, no he podido hacer un loop infinito de remoción de elemento
 //y creación de array.
 import java.util.Scanner;
-public class punto12{
+public class WIP_punto12_creadorNuevoArregloSinNumeroDeUsuario{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int nroEliminado = 0;

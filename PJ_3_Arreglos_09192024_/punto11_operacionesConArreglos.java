@@ -2,7 +2,7 @@
 //Luego, un tercer arreglo de 5 posiciones contiene en cada casilla la suma de la multiplicación de 
 //de cada elemento del array uno por los del array 2.
 import java.util.Scanner;
-public class punto11{
+public class punto11_operacionesConArreglos{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Porfavor ingrese 5 números enteros : ");

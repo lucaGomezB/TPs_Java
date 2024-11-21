@@ -1,10 +1,11 @@
 //El siguiente programa tiene una matriz, con la que simula una máquina expendedora.
 //También tiene un menú con el que el usuario puede interactuar.
 import java.util.Scanner;
-public class ejercicio5{
+public class ejercicio5_maquinaExpendedora{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String[][] maquina = new String[12][3];
+        //Esto se puede declarar como en el video, ocupa menos líneas de código y toma menos tiempo hacerlo.
         //Acá se llena la primer columna
         maquina[0][0] = "KitKat";
         maquina[1][0] = "Chicles";

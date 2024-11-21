@@ -1,7 +1,7 @@
 //El siguiente programa le permite al usuario ingresar 4 países y 3 ciudades a cada uno de esos países usando
 //un array multidimensional de 4x4
 import java.util.Scanner;
-public class ejercicio1{
+public class ejercicio1_asignacionCiudadesPorPais{
     public static void main(String[] args) {
         //Acá se define el array
         String[][] paises_y_ciudades;

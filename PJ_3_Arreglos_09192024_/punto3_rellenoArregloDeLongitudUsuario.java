@@ -3,7 +3,7 @@ import java.util.Scanner;
 //un número pedido al usuario.
 
 //Al final, escribe el array haciendo uso de otra función.
-public class punto3{
+public class punto3_rellenoArregloDeLongitudUsuario{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int [] arreglo;
@@ -12,6 +12,9 @@ public class punto3{
         arreglo = new int[longitudArreglo];
         System.out.println("Porfavor ingrese un número entero al que le quiera averiguar los múltiplos hasta la longitud del arreglo establecido.");
         int nroUsuario = sc.nextInt();
+        System.out.println("");
+        System.out.println("Los múltiplos de su número son (desde 1) : ");
+        System.out.println("");
         escribirMultiplos(arreglo, nroUsuario, longitudArreglo);
         //
     }

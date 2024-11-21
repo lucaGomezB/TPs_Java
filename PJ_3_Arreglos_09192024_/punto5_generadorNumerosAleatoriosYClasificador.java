@@ -1,5 +1,11 @@
+/* Escriba una aplicación para almacenar aleatoriamente 20 números enteros positivos pares
+del 1 al 100, de los cuales se desea saber:
+a) su promedio aritmético
+b) cuántos de los números son iguales al promedio aritmético
+c) cuántos de los números son mayores que el promedio aritmético
+d) cuántos de los números son menores que el promedio aritmético */
 import java.util.Random;
-public class punto5{
+public class punto5_generadorNumerosAleatoriosYClasificador{
     public static void main(String[] args) {
         Random rand = new Random();
         int arreglo [];

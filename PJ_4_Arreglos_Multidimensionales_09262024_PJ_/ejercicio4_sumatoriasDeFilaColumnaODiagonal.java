@@ -3,7 +3,7 @@
 //Se ofrecen 5 opciones al usuario
 //Cada opción hace algo
 import java.util.Scanner;
-public class ejercicio4{
+public class ejercicio4_sumatoriasDeFilaColumnaODiagonal{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         boolean condicion = true;

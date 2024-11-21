@@ -15,7 +15,7 @@ public Fraccion multiplicarFracciones(Fraccion f1, Fraccion f2){
 public Fraccion dividirFracciones(Fraccion f1, Fraccion f2){
 ……….
 } */
-public class Fraccion_WIP_L {
+public class Fraccion {
     int numerador;
     int denominador;
     public Fraccion(int numerador, int denominador){

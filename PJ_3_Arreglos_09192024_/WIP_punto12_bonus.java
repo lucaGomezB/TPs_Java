@@ -7,7 +7,7 @@
 //
 //En este archivo bonus, está mi intento de bucle perpetuo
 import java.util.Scanner;
-public class punto12_bonus{
+public class WIP_punto12_bonus{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         boolean condicion = true;

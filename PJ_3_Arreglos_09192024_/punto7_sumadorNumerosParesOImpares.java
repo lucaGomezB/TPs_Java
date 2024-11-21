@@ -1,7 +1,7 @@
 //El siguiente programa permite al usuario ingresar 20 números, que serán sumados acorde a su grupo : 
 //pares e impares.
 import java.util.Scanner;
-public class punto7{
+public class punto7_sumadorNumerosParesOImpares{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int sumaPares = 0;

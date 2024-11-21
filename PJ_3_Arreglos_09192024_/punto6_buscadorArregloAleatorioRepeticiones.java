@@ -1,7 +1,7 @@
 //El siguiente programa busca secuencialmente en un arreglo generado aleatoriamente, busca si hay un número
 //repetido en el arreglo y lo muestra. Si no lo hay, muestra un mensaje.
 import java.util.Random;
-public class punto6{
+public class punto6_buscadorArregloAleatorioRepeticiones{
     public static void main(String[] args) {
         Random rand = new Random();
         int contador = 0;

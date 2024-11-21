@@ -1,7 +1,7 @@
 //Esta app carga 10 dígitos enteros del usuario en un arreglo.
 //Luego, ordena de forma ascendente los dígitos en un arreglo, y en otro los ordena descendentemente.
 import java.util.Scanner;
-public class punto8{
+public class WIP_punto8_ordenadorDeArregloAscendenteODescendente{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int arreglo[];

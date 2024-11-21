@@ -1,5 +1,5 @@
 //Qué sucede si se intenta acceder a un elemento fuera del tamaño del array?
-public class punto1{
+public class punto1_elementoFueraDelArray{
     public static void main(String[] args) {
         int vector [];
         vector = new int[13];

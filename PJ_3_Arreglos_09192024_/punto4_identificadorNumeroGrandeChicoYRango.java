@@ -4,7 +4,7 @@
 //y el más chico, 
 //y muestra el rango.
 import java.util.Scanner;
-public class punto4{
+public class punto4_identificadorNumeroGrandeChicoYRango{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int arreglo [];
