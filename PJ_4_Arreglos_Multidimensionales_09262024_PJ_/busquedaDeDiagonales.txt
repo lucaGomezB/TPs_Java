@@ -1,0 +1,8 @@
+public static void recorrerDiagonalPrincipal(int[][] matriz) {
+    int n = matriz.length; // Tamaño de la matriz
+
+    for (int i = 0; i < n; i++) {
+        System.out.print(matriz[i][i] + " ");
+    }
+    System.out.println();
+}
