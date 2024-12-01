@@ -1,4 +1,4 @@
-/* Indique que sucede si realizo la siguiente declaración de variable:
+/* Indique qué sucede si realizo la siguiente declaración de variable:
 int numero = null;
 ¿Qué debo modificar para poder asignar null a la variable? */
 public class ejercicio15_intNull {

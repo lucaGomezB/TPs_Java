@@ -6,7 +6,7 @@ Cree una clase Principal que contenga un método main y haga uso de la función
 getFechaString. */
 import java.util.Date;
 import java.util.Scanner;
-public class ejercicio17_Principal_UsoDeDateYFuncionExterna {
+public class ejercicio17Y18_Principal_UsoDeDateYFuncionExterna {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Date fecha = new Date();

@@ -8,10 +8,10 @@ Una vez generado el número codifique la lógica necesaria para encontrar el nú
 ayudando al usuario informando al mismo si el número ingresado es mayor o menor al número
 aleatorio buscado. Una vez encontrado el número muestre la cantidad de intentos necesarios
 para lograrlo. */
-public class Ejercicio14_NumerosAleatorios {
+public class Ejercicio14_GeneradorNumerosAleatorios {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int x = new Double(Math.random() * 100).intValue();
+        int x = funciones.obtenerNumeroAleatorioEntre0y100();
         int numero = 0;
         int contador = 0;
         while(true){

@@ -9,18 +9,22 @@ NOTA: Si se introduce un número menor o igual que 1, directamente es no primo. 
 public class Ejercicio13_NumerosPrimos {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Porfavor ingrese un número ");
-        int numero = sc.nextInt();
+        System.out.println("Porfavor ingrese un número : ");
+        double numero = sc.nextInt();
         int contador = 0;
-        for (int i = 1; i <= numero; i++) {
-            if(numero % i == 0){
-                contador++;
-            }else if(contador > 2){break;}
-        }
-        if(contador == 2){
-            System.out.println("Su número es primo.");
-        }else{
+        if(numero <= 1){
             System.out.println("Su número no es primo.");
-        }
+        }else{
+            for (int i = 1; i <= numero; i++) {
+                if((numero % i) == 0){
+                    contador++;
+                }else if(contador >= 3){break;}
+            }
+            if(contador == 2){
+                System.out.println("Su número es primo.");
+            }else{
+                System.out.println("Su número no es primo.");
+            } 
+        }  
     }
 }

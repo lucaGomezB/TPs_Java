@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /*Lee un número por teclado que pida el precio de un producto (puede tener decimales) y calcule
-el precio final con IVA. El IVA sera una constante que sera del 21%. */
+el precio final con IVA. El IVA sera una constante que será del 21%. */
 public class Ejercicio6_CalcularIVA {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

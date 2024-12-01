@@ -15,3 +15,10 @@ public class ejercicio13_contains {
         }
     }
 }
+/*Se puede comparar también con indexOF : 
+
+  if (cadena1.indexOf(cadena2) == 0 && cadena1.length() == cadena2.length()) {
+    System.out.println("Las cadenas son iguales");
+} else {
+    System.out.println("Las cadenas son diferentes");
+} */
