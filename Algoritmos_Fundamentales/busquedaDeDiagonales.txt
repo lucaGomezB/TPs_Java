@@ -1,0 +1,12 @@
+for(i = 0;i<{logitudArreglo};i++){
+//Esto busca en la diagonal principal.
+	sout(arreglo[i][i])
+}
+
+    int n = matriz.length; // Tamaño de la matriz
+    for (int i = 0; i < n; i++) {
+	Esto busca en la diagonal invversa.//
+        int j = n - i - 1; // Índice de la columna en la diagonal inversa
+        System.out.print(matriz[i][j] + " ");
+    }
+    System.out.println();
