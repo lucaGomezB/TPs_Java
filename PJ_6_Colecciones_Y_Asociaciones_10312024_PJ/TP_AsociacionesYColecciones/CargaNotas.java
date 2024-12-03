@@ -39,7 +39,7 @@ public class CargaNotas {
                 sumaNotas += nota.getNotaExamen();
                 alumno.setNotas(nota);
             }
-            alumno.obtenerPromedio(cantidadNotas, sumaNotas);
+            alumno.calcularPromedio(cantidadNotas, sumaNotas);
             alumnos.add(alumno);
         }
         //Al finalizar la carga de los alumnos y sus notas mostrar la

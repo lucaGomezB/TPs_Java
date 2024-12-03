@@ -6,9 +6,7 @@ public class Alumno {
     private Double promedio;
 
     //Agregue en la clase Alumno un método público que calcule el promedio de las notas que posee.
-    public void calcularPromedio(){
-        
-        
+    public void calcularPromedio(int cantidadNotas, double sumaNotas){
         double promedio = sumaNotas / cantidadNotas;
         this.promedio = promedio;
     }
